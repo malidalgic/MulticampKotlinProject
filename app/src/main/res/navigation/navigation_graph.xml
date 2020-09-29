@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/communityFragment">
+
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.example.kotlinmulticamp.data.CommunityFragment"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_community" >
+        <action
+            android:id="@+id/action_communityFragment_to_arrayFragment"
+            app:destination="@id/arrayFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/arrayFragment"
+        android:name="com.example.kotlinmulticamp.data.ArrayFragment"
+        android:label="fragment_array"
+        tools:layout="@layout/fragment_array" >
+        <argument
+            android:name="Array"
+            app:argType="com.example.kotlinmulticamp.data.model.Array" />
+        <action
+            android:id="@+id/action_arrayFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+    </fragment>
+</navigation>
