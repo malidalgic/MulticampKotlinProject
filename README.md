@@ -12,8 +12,8 @@
 
 **2--** İkinci ekran üzerinde `instagram`, `twitter`, `youtube` ve `participation` linkleri için uygun ikonlar gösterilmiştir.İkonlara tıklandığında ilgili link browser üzerinde açılıyor.<br/>
 
-#### Communities <br/><br/>
+### Communities :iphone: <br/><br/>
 ![Community](https://github.com/malidalgic/MulticampKotlinProject/blob/master/screen_capture/Community.png) <br/><br/>
 
-#### GDG İstanbul <br/><br/>
+### GDG İstanbul :iphone: <br/><br/>
 ![GDG](https://github.com/malidalgic/MulticampKotlinProject/blob/master/screen_capture/GDGIstanbul.png)
